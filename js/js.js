@@ -17,4 +17,4 @@ const seconds = String(current_date.getSeconds()).padStart(2, "0");
 const date = `${month}/${day}/${current_date.getFullYear()}`;
 const time = `${hours}:${minutes}:${seconds}`
 
-last_updated.textContent = `${date} ${time} EST`
+last_updated.textContent = `${date} ${time}`

@@ -1,0 +1,21 @@
+@media (min-width: 32.5em) {
+    .grid_container {
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .grid_name {
+        font-size: 24px;
+    }
+    
+    main {
+        max-width: 500px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}

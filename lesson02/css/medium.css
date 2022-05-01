@@ -1,0 +1,9 @@
+@media (min-width: 30em) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid :nth-child(3){
+        grid-column: span 2;
+    }
+}

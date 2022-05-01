@@ -1,0 +1,39 @@
+body {
+    background-color: red;
+}
+
+header {
+    background-color: pink;
+    text-align: center;
+    border-style: solid;
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+section {
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+}
+
+footer {
+    background-color: pink;
+    text-align: center;
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+}
+
+a:link {
+    color: blue;
+}
+a:visited {
+    color: blueviolet;  
+}

@@ -4,4 +4,4 @@ const last_updated = document.querySelector("#last_update");
 
 copyright_year.textContent = current_date.getFullYear();
 
-last_updated.textContent = document.lastModified;
+last_updated.textContent = `${document.lastModified} EST`;

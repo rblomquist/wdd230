@@ -12,10 +12,9 @@
     font-size: 18px;
 }
 
-main {
-    width: auto;
-    margin: 0;
-
+body {
+    max-width: max-content;
+    margin: auto;
 }
 
 h2 {

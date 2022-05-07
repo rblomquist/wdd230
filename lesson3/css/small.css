@@ -1,0 +1,70 @@
+* {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    max-width: 1000px;
+}
+
+body {
+        background: url("../images/sanford.jpg") no-repeat center fixed;
+        background-size: 100% 100%;
+}
+
+body img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+p {
+    font-family: "Catamaran", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Staatliches", cursive;
+}
+
+main {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+header {
+    background-color: rgb(188, 228, 128);
+    color: black;
+    padding: 30px;
+    margin: 10px;
+}
+nav ul {
+    list-style: none;
+    background-color: yellow;
+    margin: 10px;
+}
+
+nav li {
+    padding: 10px;
+}
+
+a:link {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 3px;
+}
+
+a:visited {
+    color: rgb(15, 11, 248);
+}
+
+a:hover {
+    color: red;
+    background-color: rgb(188, 228, 128);
+}
+
+footer {
+    background-color: rgb(188, 228, 128);
+    margin: 10px;
+    padding: 5px;
+}

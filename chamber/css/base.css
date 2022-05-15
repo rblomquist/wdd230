@@ -1,0 +1,139 @@
+* {
+    margin: auto;
+    padding: 0;
+    max-width: 1000px;
+}
+
+body {
+    background: url("../images/sanford.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
+}
+
+p {
+    font-family: "Catamaran", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Staatliches", cursive;
+}
+
+h1 {
+    text-align: center;
+    
+    grid-column: 1;
+    
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    border-width: 1px;
+}
+
+main {
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 10px;
+    color: white;
+}
+
+section {
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    border-width: 1px;
+    
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+header {
+    background-color: rgb(188, 228, 128);
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+header img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#flex {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#social_media {
+    grid-column: 3;
+}
+
+#social_media a {
+    display: inline-block;
+    max-width: 20%;
+    max-height: 25%;
+}
+
+.navigation {
+    list-style: none;
+    background-color: yellow;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+}
+
+.responsive {
+    position: relative;
+}
+
+.responsive li {
+    display: block;
+}
+
+a:link {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+
+a:visited {
+    color: rgb(15, 11, 248);
+}
+
+a:hover {
+    color: red;
+    background-color: rgb(188, 228, 128);
+}
+
+.date {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+footer {
+    display: grid;
+    grid-gap: 10px;
+    text-align: center;
+    background-color: rgb(188, 228, 128);
+    margin: 10px;
+    padding: 5px;
+}
+
+footer img {
+    max-width: 100%;
+    max-height: 100%;
+}
+

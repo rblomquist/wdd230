@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Staatliches&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Staatliches&display=swap" rel="stylesheet">    
         <title>Sanford Chamber of Commerce</title>
         <meta name="description" content="Sanford Chamber of Commerce">
-        <link rel="stylesheet" href="css/normalize.css">
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
@@ -16,7 +16,7 @@
 <body>
     <header>
         <div id="flex">
-        <img src="images/Logo design.jpg" alt="company logo">
+        <img src="images/Logodesign.jpg" alt="company logo">
         <div id="social_media">
             <a href="https://facebook.com">
                 <img src="images/facebook.png" alt="Facebook">
@@ -27,7 +27,7 @@
         </div>
         <nav>
             <ul class="navigation">
-                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
                 <li><a href="#">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
@@ -36,44 +36,81 @@
         </nav>
         </div>
         <p class="date"></p>
+        <p class="meeting"></p>
     </header>
     <main>
         <h1>Welcome to the Sanford Chamber of Commerce</h1>
-        <section class="hero">Hero image and call to action</section>
-        <section class="news">Local news
+        <section class="hero">
+            <div>
+                <h2>Welcome to our newset Sanford Chamber members!</h2>
+                <a href="">Join now</a>
+            </div>
+            <img src="images/shr.jpg" alt="Sanford Health and Rehab">
+            <img src="images/coachs.jpg" alt="Coach's">
+            <img src="images/tires.jpg" alt="Black's Tire and Auto">
+            <img src="images/kimbrells.jpg" alt="Kimbrell's">
+        </section>
+        <section class="news">
+            <h2>Local news</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit assumenda maiores temporibus eius? Beatae, perferendis iusto unde impedit quidem vitae dolorem, recusandae laudantium odit quisquam asperiores eum reprehenderit facere?</p>
+            </br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit id corporis cumque saepe optio. Maiores voluptatum numquam libero aspernatur vel eaque unde, quibusdam commodi ducimus excepturi porro rem id maxime!</p>
     
         </section>
         <section class="events">
             <h2>Local Events</h2>
             <p>📚Join us at the Lee County library for children's storytime every 
                 Wednesday at 10:00 AM!📚</p>
-            <p>SPLASH PAD OPEN KIWANIS PARK</p>
+            </br>
+            <p>The 💦splash pad💦 at kiwanis park is opening! Come splash with us!
+                Open every day from 10am - 7pm.</p>
+            </br>
+            <p></p>
         </section>
-        <section class="weather">Weather</section>
-        <section class="join">Join</section>
-        <!-- <section class="spotlight"> -->
+        <section class="weather">
+            <h2>Weather</h2>
+            <div class="wgrid">
+                <img src="images/sun.png" alt="sun"> 
+                <p class="current">Currently </br>
+                    80&#176; F</p>
+                <p class="hilo">
+                    High: </br>
+                    Low: </p>
+                <p class="hilonum">
+                    84&#176; F</br>
+                    60&#176; F</p>
+            </div>
+        </section>
+        <section class="join">
+            <h2>Join</h2>
+            <p>Become a member of the Sanford Chamber of Commerce. We are growing and this 
+                is your opportunity to be a part of something big!</p>
+            <a href="">Join now</a>
+        </section>
         <section class="spotlight1">
             <h2>Sandra's Bakery</h2>
             <img src="images/donut.jpg" alt="Sandra's Bakery">
             <p>The best donuts in town</p>
-            <p>Contact us at: </br>
-            sandra@sandrasbakery.com </br>
-            +919-774-5689</p>
+            <div class="contact">
+                <p>Contact us at: </br>
+                sandra@sandrasbakery.com </br>
+                +919-774-5689</p>
+            </div>
         </section>
         <section class="spotlight2">
             <h2>Central Carolina Hospital</h2>
             <img src="images/cch.jpg" alt="Central Carolina Hospital">
-            <p>Serving healthcare needs of the the community</p>
-            <p>Contact us at: </br>
-            cch@lifepointhealth.net </br>
-            +919-774-2100</p>
+            <p>Serving the healthcare needs of the the community</p>
+            <div class="contact">
+                <p>Contact us at: </br>
+                cch@lifepointhealth.net </br>
+                +919-774-2100</p>
+            </div>
         </section>
-            <!-- <div class="spotlight3">Company spotlight 3</div> -->
-        <!-- </section> -->
     </main>
     <footer>
         <div id="footerlogo">
-            <img src="images/Logo design.jpg" alt="company logo">
+            <img src="images/Logodesign.jpg" alt="company logo">
         </div>
         <div id="footeraddress">
             <h3>Sanford Chamber of Commerce</h3>

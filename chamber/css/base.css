@@ -95,10 +95,16 @@ header img {
 
 .responsive {
     position: relative;
+    height: 50px;
 }
 
 .responsive li {
     display: block;
+    height: 75px;
+    background-color: yellow;
+    margin: auto;
+    width: 500px;
+    text-align: center;
 }
 
 a:link {
@@ -106,6 +112,7 @@ a:link {
     text-decoration: none;
     color: black;
     padding: 3px;
+    display: block;
 }
 
 a:visited {

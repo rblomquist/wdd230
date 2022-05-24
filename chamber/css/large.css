@@ -39,12 +39,10 @@
         text-align: center;
     }
 
-
     main {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 10px;
-        color: white;
     }
 
     .events {
@@ -64,14 +62,6 @@
 
     .hero div p {
         padding: 5px;
-    }
-
-    .hero a {
-        color: white;
-        border-style: none solid none solid;
-        border-color: white;
-        box-sizing: border-box;
-        border-width: 1px;
     }
 
     .hero a:hover {

@@ -169,10 +169,6 @@ footer img {
 
 .hero a {
     color: white;
-    border-style: none solid none solid;
-    border-color: white;
-    box-sizing: border-box;
-    border-width: 1px;
 }
 
 .hero a:hover {
@@ -230,10 +226,6 @@ footer img {
 
 .join a {
     color: white;
-    border-style: none solid none solid;
-    border-color: white;
-    box-sizing: border-box;
-    border-width: 1px;
 }
 
 .join a:hover {

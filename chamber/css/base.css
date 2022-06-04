@@ -232,6 +232,10 @@ footer img {
     color: red;
 }
 
+.join div {
+    display:block;
+}
+
 .spotlight1 {
     display: grid;
     text-align: center;

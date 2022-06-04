@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Staatliches&display=swap" rel="stylesheet">    
         <title>Sanford Chamber of Commerce</title>
         <meta name="description" content="Sanford Chamber of Commerce">
+        <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
@@ -15,7 +16,7 @@
 <body>
     <header>
         <div id="flex">
-        <img src="images/Logodesign.jpg" alt="company logo">
+        <img src="images/Logodesign.webp" alt="company logo">
         <div id="social_media">
             <a href="https://facebook.com">
                 <img src="images/facebook.png" alt="Facebook">
@@ -41,13 +42,18 @@
         <h1>Welcome to the Sanford Chamber of Commerce</h1>
         <section class="hero">
             <div>
-                <h2>Welcome to our newset Sanford Chamber members!</h2>
+
+                <picture>
+                    <source media="(max-width: 38em)" srcset="images/responsiveSmall.jpg">
+                    <source media="(max-width: 60em)" srcset="images/responsiveMedium.jpg">
+                    <img src="images/responsiveLarge.jpg" alt="responsive image">
+                <!-- <h2>Welcome to our newset Sanford Chamber members!</h2>
                 <a href="#">| Join now |</a>
             </div>
             <img src="images/shr.jpg" alt="Sanford Health and Rehab">
             <img src="images/coachs.jpg" alt="Coach's">
             <img src="images/tires.jpg" alt="Black's Tire and Auto">
-            <img src="images/kimbrells.jpg" alt="Kimbrell's">
+            <img src="images/kimbrells.jpg" alt="Kimbrell's"> -->
         </section>
         <section class="news">
             <h2>Local news</h2>
@@ -71,20 +77,31 @@
             <div class="wgrid">
                 <img src="images/sun.png" alt="sun"> 
                 <p class="current">Currently <br>
-                    80&#176; F</p>
+                    <span class="temp">80</span>&#176; F</p>
                 <p class="hilo">
                     High: <br>
                     Low: </p>
                 <p class="hilonum">
                     84&#176; F<br>
                     60&#176; F</p>
+                <p class="wind">
+                    Wind speed: <br>
+                    Wind chill: </p>
+                <p class="windnum">
+                    <span class="speed">4</span>mph <br>
+                    <span class="chill"></span>
+                </p>
+                
             </div>
         </section>
         <section class="join">
             <h2>Join</h2>
             <p>Become a member of the Sanford Chamber of Commerce. We are growing and this 
                 is your opportunity to be a part of something big!</p>
-            <a href="#">| Join now |</a>
+            
+            <div class="ja">
+                <a href="#">| Join now |</a>
+            </div>
         </section>
         <section class="spotlight1">
             <h2>Sandra's Bakery</h2>
@@ -109,7 +126,7 @@
     </main>
     <footer>
         <div id="footerlogo">
-            <img src="images/Logodesign.jpg" alt="company logo">
+            <img src="images/Logodesign.webp" alt="company logo">
         </div>
         <div id="footeraddress">
             <h3>Sanford Chamber of Commerce</h3>
@@ -127,5 +144,6 @@
         </div>
     </footer>
     <script src="js/js.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>

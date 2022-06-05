@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+}
+
+picture {
+    display: block;
+    padding: 5px;
+}
+
+img[data-src] {
+    filter: blur(0.3em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 1.5s;
+  }

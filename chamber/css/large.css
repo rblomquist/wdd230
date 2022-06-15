@@ -119,4 +119,10 @@
     .gallery2:hover{
         transform: scale(1.3);
     }
+    
+    
+    form {
+        grid-column: 2 / span 2;
+    }
+
 }

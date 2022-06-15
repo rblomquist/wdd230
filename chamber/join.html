@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Staatliches&display=swap" rel="stylesheet">    
+        <title>Sanford Chamber of Commerce</title>
+        <meta name="description" content="Become a member of the Sanford Chamber of Commerce">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+<body>
+    <header>
+        <div id="flex">
+        <img src="images/Logodesign.webp" alt="company logo">
+        <div id="social_media">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <!-- <li><a href="#">Join</a></li> -->
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        <p class="date"></p>
+        <p class="meeting"></p>
+    </header>
+    <main>
+        <h1>Join the Sanford Chamber of Commerce</h1>
+        <form method="get" action ="thanks.html">
+            <section class="contact" >
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="text" >First Name*<input type="text" name="fname" placeholder="John" required></label>
+                    <label class="text" >Last Name*<input type="text" name="lname" placeholder="Doe" required></label>
+                    <label class="text">Businiess Position<input type="text" name="title" pattern="[\w- ]{7}" placeholder="title"></label>
+                    <label class="text" >Phone Number*<input type="tel" name="phone" placeholder="123456789" required></label>
+                    <label class="text">Email<input type="email" name="email" placeholder="user@domain.com"></label>
+                </fieldset>
+            </section>
+
+            <section class="business">
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="text" > Businiess Name*<input type="text" name="businessname" required></label>
+                    <label class="text" >Business Description*</label> 
+                        <textarea name="decription" rows="5" required></textarea>
+                </fieldset>
+            </section>
+
+            <section>
+                <fieldset>
+                    <legend>Membership Levels</legend>
+                    <div class="membership">
+                        <label class="member"><input type="radio" name="audience" value="nonprofit" required> Non-Profit</label>
+                        <p>Non-Profit orignizations receive all the benefits the chamber has to offer at no cost!</p>
+                        <label class="member"><input type="radio" name="audience" value="bronze"> Bronze - $30/month</label>
+                        <p>Bronze members receive access to special seminars and trainings 
+                            hosted by the chamber</p>
+                        <label class="member"><input type="radio" name="audience" value="silver"> Silver - $75/month</label>
+                        <p>Silver members will also have their business displayed on the chamber website. They will also
+                            be eligable for special discounts offered by the chamber.</p>
+                        <label class="member"><input type="radio" name="audience" value="gold"> gold - $120/month</label>
+                        <p>Gold members will receive all prevous benefits and in addition will have their business 
+                            spotlighted on the chamber website. They will also be able to vote during chamber
+                            meetings</p>
+                    </div>
+                </fieldset>
+                <label class="date"><input type="hidden" id="formdate" name="formdate"></label>
+            </section>
+
+            <section class="submit">
+                <input class="button" type="submit" value="Become a Member">
+            </section>
+
+
+
+        </form>
+    </main>
+    <footer>
+        <div id="footerlogo">
+            <img src="images/Logodesign.webp" alt="company logo">
+        </div>
+        <div id="footeraddress">
+            <h3>Sanford Chamber of Commerce</h3>
+            <p>2000 Carthage St
+            Sanford, NC 27330</p>
+        </div>
+        <div id="footcontact">
+            <p>info@sanfordcoc.org</p>
+            <p>(919)-775-3121</p>
+            <a href="#">Map location</a>
+        </div>
+        <div id="copyright">
+            &copy;<span id="copyright_year"></span> Sanford Chamber - Ricky Blomquist -  North Carolina
+            <p>Last Updated <span id="last_update"></span> </p>
+        </div>
+    </footer>
+    <script src="js/js.js"></script>
+    <script src="js/formdate.js"></script>
+</body>
+</html>

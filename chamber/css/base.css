@@ -39,7 +39,7 @@ h2 {
 
 main {
     display: grid;
-    /* grid-template-rows: repeat(8); */
+    grid-template-rows: repeat(8);
     grid-gap: 10px;
     color: white;
 }
@@ -323,4 +323,64 @@ picture img {
     text-align: center;
 
     grid-column: 1 / span 4;
+}
+
+    
+form {
+    grid-column: 1 / span 4;
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+    padding: 10px;
+}
+
+label.text {
+    display: block;
+    padding-top: 10px;
+}
+.text input {
+    padding: 5px;
+    width: 95%;
+    background-color:antiquewhite;
+}
+
+.text input:required, textarea:required {
+    border-left: red solid 6px;
+}
+.text input:required:valid, textarea:required:valid {
+    border-left: green solid 6px;
+}
+
+textarea {
+    padding: 5px;
+    width: 95%;
+    background-color:antiquewhite;
+}
+
+.member {
+    display: block;
+    padding: 10px;
+
+    grid-column: 1;
+}
+
+
+.membership p {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.submit {
+    text-align: center;
+}
+.button {
+    justify-self: center;
+    padding: 5px;
+}
+
+.thanks {
+    grid-column: 1 / span 4;
+    text-align: center;
 }

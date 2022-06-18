@@ -381,3 +381,8 @@ textarea {
     grid-column: 1 / span 4;
     text-align: center;
 }
+
+
+.member {
+    font-size: 22px;
+}

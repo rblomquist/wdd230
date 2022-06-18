@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 5px;
+    border-style: solid;
+    border-color: black;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px gray;
+
+    text-align: center;
+    padding: 10px;
+    background-color:blueviolet;
+    max-width: 95%;
+}
+
+.cards section {
+    background-color: mediumpurple;
+    border-style: solid;
+    border-color: black;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.cards img {
+    max-width: 99%;
+    padding: 2px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}

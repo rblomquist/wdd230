@@ -386,3 +386,15 @@ textarea {
 .member {
     font-size: 22px;
 }
+
+#directory {
+    text-align: center;
+}
+
+#directory a{
+    color: white;
+}
+
+#directory a:hover{
+    color: red;
+}

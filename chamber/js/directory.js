@@ -1,0 +1,48 @@
+const url = "json/data.json";
+
+const cointainer = document.querySelector("#directory");
+
+async function getDirectory() {
+
+    let response = await fetch(url);
+
+    if (response.ok) {
+
+        let data = await response.json();
+        console.log(data);
+        buildDirectory(data);
+    };
+};
+
+function buildDirectory(data) {
+    data.forEach(business => {        
+        let section = document.createElement("section");
+        let h2 = document.createElement("h2");
+        let address = document.createElement("p");
+        let phone = document.createElement("p");
+        let website = document.createElement("a");
+        let member = document.createElement("p");
+        let img = document.createElement("img");
+
+        h2.textContent = business.name;
+        img.setAttribute("src", business.image);
+        img.setAttribute("alt", business.name);
+        address.textContent = business.address;
+        phone.textContent = business.phoneNumber;
+        member.textContent = `Membership level: ${business.membership}`;
+        website.setAttribute("href", business.website);
+        website.textContent = "Visit our site!"
+        
+        
+        section.append(h2);
+        section.append(img);
+        section.append(address);
+        section.append(phone);
+        section.append(member);
+        section.append(website);
+
+        cointainer.append(section);
+    })
+};
+
+getDirectory()

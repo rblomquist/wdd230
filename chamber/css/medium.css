@@ -68,10 +68,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-}
+    }
 
-.membership p {    
-    grid-column: 2;
-}
+    .membership p {    
+        grid-column: 2;
+    }
+
+    #directory {
+        grid-column: 1 / span 4;
+            
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 5px;
+
+        max-width: 100%;
+        }
 
 }

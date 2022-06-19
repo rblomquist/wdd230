@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Central Carolina Hospital",
+        "address": "123 Carthage St Sanford, NC 27330",
+        "phoneNumber": "919-774-2100",
+        "website": "https://www.centralcarolinahosp.com/",
+        "image": "images/cch.jpg",
+        "membership": "Gold" 
+    },
+
+    {
+        "name": "Sandra's Bakery",
+        "address": "5686 Lee Ave Sanford, NC 27330",
+        "phoneNumber": "919-774-5689",
+        "website": "https://www.facebook.com/pages/category/Bakery/Sandras-Bakery-455838124545796/",
+        "image": "images/donut.jpg",
+        "membership": "Gold"
+    },
+
+    {
+        "name": "Sanford Health and Rehab",
+        "address": "4567 Fullmer Ct Sanford, NC 27330",
+        "phoneNumber": "919-656-6565",
+        "website": "https://sanstonehealth.com/locations/sanford/",
+        "image": "images/shr100.jpg",
+        "membership": "Gold" 
+    },
+
+    {
+        "name": "Coachs",
+        "address": "45435 Horner Blvd Sanford, NC 27330",
+        "phoneNumber": "919-753-6437",
+        "website": "https://www.coachsneighborhoodgrill.com/",
+        "image": "images/coachs100.jpg",
+        "membership": "Silver" 
+    },
+
+    {
+        "name": "Black's Tire & Auto",
+        "address": "735 Flicker St Sanford, NC 27330",
+        "phoneNumber": "919-735-1234",
+        "website": "https://blackstire.com/tires-auto-repair-sanford-nc-2",
+        "image": "images/tires100.jpg",
+        "membership": "Bronze" 
+    },
+
+    {
+        "name": "Kimbrell's",
+        "address": "1594 Main St Sanford, NC 27330",
+        "phoneNumber": "919-214-7612",
+        "website": "https://www.kimbrells.com/sanford",
+        "image": "images/kimbrells100.jpg",
+        "membership": "Bronze" 
+    },
+
+    {
+        "name": "Habitat for Humanity",
+        "address": "6452 Carthage St Sanford, NC 27330",
+        "phoneNumber": "919-422-8972",
+        "website": "https://www.habitatsanfordnc.org/habitat-restore",
+        "image": "images/habitatforhumanity100.jpg",
+        "membership": "Non-Profit"
+    },
+
+    {
+        "name": "LifeSprings Church",
+        "address": "32456 Keller Andrews Rd Sanford, NC 27330",
+        "phoneNumber": "919-432-3211",
+        "website": "https://www.lifesprings.online/",
+        "image": "images/lifepointchurch100.jpg",
+        "membership": "Non-Profit" 
+    },
+
+    {
+        "name": "Lee County Library",
+        "address": "2001 Appletree Rd Sanford, NC 27330",
+        "phoneNumber": "919-452-4351",
+        "website": "https://library.leecountync.gov",
+        "image": "images/library100.jpg",
+        "membership": "Non-Profit" 
+    }
+
+]

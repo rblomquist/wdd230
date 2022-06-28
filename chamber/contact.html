@@ -40,10 +40,37 @@
         <p class="meeting"></p>
     </header>
     <main>
-        <h1>Thank you for Joining us!</h1>
-        <section class="thanks">
-            <p>Thank you for your interest in the Sanford Chamber of Commerce!</p>
-            <p>A representative of the chamber will be in touch with you soon!</p>
+        <h1>Contact Us</h1>
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <br>
+            <h3>Sanford Chamber of Commerce</h3>
+            <p>2000 Carthage St
+                Sanford, NC 27330</p>
+            <p>(919)-775-3121</p>
+            <br>
+            <p>info@sanfordcoc.org</p>
+            <br>
+            <h3>Office Hours</h3>
+            <p> Monday - Thursday: 8:00am - 5:00pm</p>
+            <p>Friday: 8:00am - 2:00pm</p>
+        </section>
+        <section class="contactimg">
+            <img src="images/coc.jpg">
+        </section>
+        <section class="contactform">
+            <p>To request information please fill out the following form and a representative will
+            get in touch with you</p>
+            <form method="get" action ="thanks.html">
+                <fieldset>
+                    <label class="text">Name*<input type="text" name="name" placeholder="John Doe" required></label>
+                    <label class="text">Email<input type="email" name="email" placeholder="user@domain.com" required></label>
+                    <label class="text">Question*
+                        <textarea name="decription" rows="5" required></textarea></label>
+                    <input class="button" type="submit" value="Ask Question">
+
+                </fieldset>
+            </form>
         </section>
     </main>
     <footer>

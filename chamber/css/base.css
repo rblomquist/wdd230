@@ -4,9 +4,14 @@
     max-width: 1100px;
 }
 
+img {
+    max-width: 100%;
+}
+
 body {
     background: url("../images/sanford.jpg") no-repeat center fixed;
     background-size: 100% 100%;
+    text-align: center;
 }
 
 p {
@@ -397,4 +402,15 @@ textarea {
 
 #directory a:hover{
     color: red;
+}
+
+.contactimg {
+    grid-row: 4;
+}
+
+.contactform{
+    text-align: left;
+}
+.contactform p {
+    text-align: center;
 }

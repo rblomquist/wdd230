@@ -83,10 +83,6 @@
 
         max-width: 100%;
     }
-
-    .contact {
-        grid-column: 1 / span 2;
-    }
     
     .contactimg {
         grid-column: 3 / span 2;

@@ -462,6 +462,16 @@ textarea {
 .directorylistview {
     display: block;
 }
+
+.directorylistview section {
+    display: flex;
+    max-width: 100%;
+}
+.directorylistview img {
+    display: none;
+}
+
+
 /* -------Contact Page--------------------- */
 .contactimg {
     grid-row: 4;

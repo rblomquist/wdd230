@@ -88,17 +88,12 @@
     #listview {
         grid-column: 3;
     }
-    
-    #directorygridview{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        grid-gap: 5px;
-    }
 
-    #directorylistview {
+    .directorylistview img {
         display: block;
+        padding: 5px;
     }
-
+    
     /* -----------------Contact Page---------------- */
     .contactus {
         grid-column: 1 / span 2;

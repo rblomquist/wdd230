@@ -72,16 +72,34 @@
         grid-column: 2;
     }
 
-    #directory {
-        grid-column: 1 / span 4;
-            
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        grid-gap: 5px;
-
+    /* -----------Directory Page--------- */
+    #directory {            
         max-width: 100%;
     }
 
+    #buttons {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #gridview {
+        grid-column: 2;
+    }
+    
+    #listview {
+        grid-column: 3;
+    }
+    
+    #directorygridview{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 5px;
+    }
+
+    #directorylistview {
+        display: block;
+    }
+
+    /* -----------------Contact Page---------------- */
     .contactus {
         grid-column: 1 / span 2;
     }

@@ -60,6 +60,7 @@ section {
     margin: 10px;
 }
 
+/* -------------Header----------------- */
 header {
     background-color: rgb(188, 228, 128);
     color: black;
@@ -87,6 +88,7 @@ header img {
     max-height: 25%;
 }
 
+/* ------------Navigation---------------- */
 .navigation {
     list-style: none;
     background-color: yellow;
@@ -147,6 +149,7 @@ a:hover {
     font-size: 15px;
 }
 
+/*---------------- footer ------------------*/
 footer {
     display: grid;
     grid-gap: 10px;
@@ -161,6 +164,9 @@ footer img {
     max-height: 100%;
 }
 
+/* ----------------Home Page-------------------- */
+
+/* --------hero section---------- */
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -188,6 +194,7 @@ footer img {
     max-width: 100%;
 }
 
+/* --------weather section------ */
 .weather {
     text-align: center;
 }
@@ -228,14 +235,18 @@ footer img {
 .weather a:hover {
     color: red;
 }
+
+/* ----news section ---------- */
 .news {
     text-align: center;
 }
 
+/* -----events section------ */
 .events {
     text-align: center;
 }
 
+/* -----join section----- */
 .join {
     text-align: center;
     display: grid;
@@ -256,6 +267,7 @@ footer img {
     display:block;
 }
 
+/* -----spotlight sections----- */
 .spotlight1 {
     display: grid;
     text-align: center;
@@ -278,6 +290,9 @@ footer img {
     border-top: 1px solid white;
 }
 
+/* --------------------Discover Page--------------- */
+
+/* -----demographics----- */
 .demographics {
     grid-column: 1 / span 4;
 
@@ -310,6 +325,7 @@ footer img {
     border-width: 1px;
 }
 
+/* -----picture gallery----- */
 .gallery1 {
     grid-column: 1 / span 4;
 }
@@ -338,6 +354,7 @@ picture img {
 }
 
     
+/* --------------------Join Page-------------- */
 form {
     grid-column: 1 / span 4;
     width: 100%;
@@ -402,7 +419,9 @@ textarea {
     font-size: 22px;
 }
 
+/* --------------Directory Page------------- */
 #directory {
+    grid-column: 1 / span 4;
     text-align: center;
 }
 
@@ -414,11 +433,41 @@ textarea {
     color: red;
 }
 
+#buttons {
+    grid-column: 1 / span 4;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+}
+
+#gridview {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#listview {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.directorygridview{    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 5px;
+
+    max-width: 100%;
+}
+
+.directorylistview {
+    display: block;
+}
+/* -------Contact Page--------------------- */
 .contactimg {
     grid-row: 4;
 }
 
-.contactform{
+.contactform {
     text-align: left;
 }
 .contactform p {

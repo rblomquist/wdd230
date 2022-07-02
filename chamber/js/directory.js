@@ -1,6 +1,6 @@
 const url = "json/data.json";
 
-const cointainer = document.querySelector("#directory");
+const container = document.querySelector("#directory");
 
 async function getDirectory() {
 
@@ -41,8 +41,21 @@ function buildDirectory(data) {
         section.append(member);
         section.append(website);
 
-        cointainer.append(section);
+        container.append(section);
     })
 };
 
 getDirectory()
+
+const gridbutton = document.querySelector("#gridview");
+const listbutton = document.querySelector("#listview");
+
+gridbutton.addEventListener("click", () => {
+  container.classList.add("directorygridview");
+  container.classList.remove("directorylistview");
+});
+
+listbutton.addEventListener("click", () => {
+  container.classList.add("directorylistview");
+  container.classList.remove("directorygridview");
+});

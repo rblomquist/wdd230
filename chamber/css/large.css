@@ -29,10 +29,7 @@
     }
 
     h1 {
-        text-align: center;
-        
-        grid-column: 1 / span 4;
-        
+        text-align: center;    
     }
 
     h2 {

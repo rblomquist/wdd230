@@ -15,7 +15,6 @@ async function getWeather() {
     
     if (response.ok) {
         let data = await response.json();
-        console.log(data);
         displayWeather(data);
     }
 }

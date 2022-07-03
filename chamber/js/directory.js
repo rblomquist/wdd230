@@ -9,7 +9,6 @@ async function getDirectory() {
     if (response.ok) {
 
         let data = await response.json();
-        console.log(data);
         buildDirectory(data);
     };
 };
